@@ -1,0 +1,40 @@
+$ rake -T
+DEPRECATED - remove your devops/tasks/prod.rake
+rake creds:aws[account]                               # Ensure we have AWS account credentials
+rake creds:aws:change_role[account]                   # Change to a different account or role in the same account
+rake creds:aws:write_config[account]                  # Write out the AWS configuration
+rake creds:vault                                      # Obtain vault credentials
+rake creds:vault:check                                # Check if working vault credentials are available in the desktop
+rake deploy:prod                                      # Deploy to prod
+rake dev:aws:dependencies                             # Install vagrant-aws dependencies
+rake dev:aws:destroy[packer_dsl]                      # Destroy your Vagrant AWS instance
+rake dev:aws:shell[packer_dsl,cmd]                    # Connect to your Vagrant AWS instance
+rake dev:aws:ssh_config[packer_dsl]                   # SSH connection info of your Vagrant AWS instance
+rake dev:aws:status[packer_dsl]                       # Status of your Vagrant AWS instance
+rake dev:aws:up[image_id,envvar_filename,packer_dsl]  # Deploy a Vagrant instance to AWS
+rake dev:dependencies                                 # Install all dependencies
+rake dev:destroy                                      # Destroy the environment
+rake dev:gofaster                                     # Make rake commands faster
+rake dev:log:app_error[machine]                       # Display the application error log in real time
+rake dev:log:app_out[machine]                         # Display the application stdout log in real time
+rake dev:rebuild                                      # Rebuild the development environment
+rake dev:reload                                       # Reload vagrant configuration
+rake dev:shell[machine,cmd]                           # Shell into the dev server
+rake dev:status                                       # Show the status of the dev server
+rake dev:up                                           # Build the development environment
+rake git:start[new,parent]                            # Create a new branch ready for work
+rake git:up[branch]                                   # Update your local clone
+rake infra:instances:apply[environment,img]           # Deploy new versions of your service
+rake infra:instances:destroy[environment,img]         # Undeploy old versions of your services
+rake infra:instances:plan[environment,img]            # Plan a terraform for a new version of your service
+rake infra:network:apply[environment]                 # Apply terraform for the network
+rake infra:network:destroy[environment]               # Destroy terraform for the network
+rake infra:network:plan[environment]                  # Plan terraform for the network
+rake instances:prod:list                              # List the servers in prod
+rake instances:prod:rotate                            # Rotate the servers in prod (kills and respawns)
+rake package:create[packer_dsl,ami]                   # Create AMI via Packer from non-master
+rake package:list[packer_dsl]                         # List AMIs matching tag values in packer DSL
+rake prod:shell[instance_id]                          # SSH into a prod instance
+rake test:all                                         # Run the testing pipeline
+rake test:unit                                        # Run unit tests
+rake undeploy:prod                                    # Bring down prod

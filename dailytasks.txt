@@ -1,0 +1,23 @@
+9th Oct
+
+Understanding "Developer Golden Path" 
+Issues: I still dont have Github account 
+
+10th Oct
+
+Understanding Chef
+Understanding Terraform
+Understanding Ruby
+Issues: I still dont have Github account (Blocked for working on Golden Path) 
+
+11th Oct
+
+installed httpd webserver with chef
+Go Through Jira for 2 tickets created by Abrar
+Terraform testcases
+Ruby Test cases
+AWS Ruby SDK --- read EC2 instance from AWS Ruby SDK 
+understand how DHCP and DNS works on AWS
+
+
+

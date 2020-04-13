@@ -1,0 +1,6 @@
+Reading and Writing Files
+The same methods that we've been using for 'simple' I/O are available for all file objects. So, gets reads a line from standard input, and aFile.gets reads a line from the file object aFile.
+However, I/O objects provides additional set of access methods to make our lives easier.
+The sysread Method
+You can use the method sysread to read the contents of a file. You can open the file in any of the modes when using the method sysread. For example −
+Following is the input text file −
